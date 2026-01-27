@@ -13,10 +13,26 @@
         .section-title { font-weight: bold; margin-top: 30px; }
         .bold { font-weight: bold; }
         .grey { color: #666; }
+        .logo-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .logo-block img {
+      width: 68px;
+      margin-bottom: 5px;
+    }
+    .logo-block .politi {
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+      font-weight: bold;
+      margin-bottom: 10px;
     </style>
 </head>
 <body>
     <div class="header">
+        <div class="logo-block">
         <img src="politiet_logo_sort.svg" alt="Politi logo">
          <div>
             <h2>POLITIET</h2>
@@ -25,6 +41,7 @@
                 Soliveien 38<br>
                 1666 Rolvsøy
             </div>
+         </div>
         </div>
     </div>
     <table class="info-table" width="100%">
